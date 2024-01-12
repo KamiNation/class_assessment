@@ -1,44 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/index.css">
-    <script src="./assets/JS/index.js"></script>
+    
     <title>Document</title>
 </head>
+
 <body>
-    <div>
-        <div class="contact-form">
+
+        <div id="contact-form">
             <h3>Contact Form</h3>
             <form action="">
                 <div class="input-wrapper">
                     <div class="input-wrap">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name">
+                        <label for="name">Name:</label>
+                        <input type="text" id="one">
+                    </div>
+                    <div class="input-wrap">
+                        <label for="email">Email:</label>
+                        <input type="text" id="two">
+                    </div>
+                    <div class="input-wrap">
+                        <label for="stack">Stack:</label>
+                        <input type="text" id="three">
+                    </div>
+                    <div class="text-wrap">
+                        <label for="name">Comments:</label>
+                        <textarea name="" id="four" cols="30" rows="10"
+                            placeholder="Oi, Write your comment here!"></textarea>
+                    </div>
                 </div>
-                <div class="input-wrap">
-                    <label for="email">Email:</label>
-                    <input type="text" id="Email">
-                </div>
-                <div class="input-wrap">
-                    <label for="stack">Stack:</label>
-                    <input type="text" id="stack">
-                </div>
-                <div class="input-wrap">
-                    <label for="name">Comments:</label>
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
-                </div>
-                </div>
-                <button>Submit</button>
-
-                <div class="result">
-
-                </div>
-                
-                
+                <button id="btn">Submit</button>
             </form>
         </div>
-    </div>
+        <div class="result" id="five">
+            Result Table
+        </div>
+
+        <script src="./assets/JS/index.js"></script>
 </body>
+
 </html>

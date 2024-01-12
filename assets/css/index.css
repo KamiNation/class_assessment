@@ -2,18 +2,19 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
 }
 
 body{
     display: flex;
     align-items: center;
-    justify-content: center;
-    background-color: #e7e7e7;
+    justify-content: space-around;
+    background: linear-gradient(75deg, #e62fac, rgba(0, 208, 255)) ;
     width: 100%;
     height: 100vh;
 }
 
-.contact-form{
+#contact-form{
     box-shadow: 0px 0px 4px 6px rgba(0,0,0, 0.7);
     width: 450px;
     background-color: #fff;
@@ -23,6 +24,64 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+h3{
+    font-size: 24px;
+    color: #353434;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    
+    /* background-color: red; */
+}
+
+.input-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 350px;
+}
+
+.input-wrap{
+    margin: 7px 0;
+    width: 100%;
+    /* background-color: aqua; */
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-wrap input{
+    width: 100%;
+    height: 35px;
+}
+
+.text-wrap{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+}
 
 
+
+button{
+    height: 35px;
+    background-color: #2f91e6;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+}
+
+.result{
+    background-color: #fff;
+    padding: 10px;
+    width: 450px;
+    min-height: 200px;
+    border-radius: 5px;
 }
